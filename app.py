@@ -1,8 +1,7 @@
 
 import streamlit as st
 
-chiave = "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"
-# chiave = st.secrets["superkey"]
+chiave = st.secrets["superkey"]
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
